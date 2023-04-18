@@ -1,0 +1,28 @@
+#navbarSupportedContent .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item{
+    height: 450px;
+} 
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption{
+    background:rgba(22, 19, 19, 0.8);
+}
+.navbar-tooggler{
+    border: solid 1px #cbcbcb;
+    background-color: aliceblue;
+}
+.navbar-tooggler-icon{
+    color: #cbcbcb;
+}
+@media screen and(max-width:768){
+    #carouselExampleCaptions .carousel-inner .carousel-item{
+        height: 220px;
+    }
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        height: 100%;
+    }
+
+}
+
+    
